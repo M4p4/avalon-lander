@@ -1,0 +1,21 @@
+{
+  "name": "lander",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "dev": "cross-env TAILWIND_MODE=watch NODE_ENV=development postcss ./app/static/src/css/tailwind.css -o ./app/static/dist/css/main.css -w",
+    "build:prod": "cross-env TAILWIND_MODE=build NODE_ENV=production postcss ./app/static/src/css/tailwind.css -o ./app/static/dist/css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.0.16",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^2.0.0"
+  }
+}

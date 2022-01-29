@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="bg-gray-900 px-12">
+
+        <section>
+            <div class="flex flex-col text-center pt-28 pb-6">
+
+                <div class="text-center pb-12 md:pb-16">
+                    <h1 class="text-4xl md:text-5xl text-white font-extrabold leading-tighter tracking-tighter mb-4">
+                        Welcome to Avalon</h1>
+                    <div class="max-w-3xl mx-auto">
+                        <p class="text-xl text-gray-300 mb-8">Say good bye to sleepless nights when courses drop, we
+                            protect your assets from liquidation in a NFT-based Vault.</p>
+                        <div class="flex justify-center">
+                            <div>
+                                <a class="text-center text-white bg-indigo-700 rounded-md py-3 hover:bg-indigo-600 font-medium px-3 w-full mr-4 mb-4 sm:w-auto sm:mb-0"
+                                   href="#">Launch App</a>
+                            </div>
+                            <div>
+                                <a class="text-center text-white bg-gray-800 rounded-md py-3 hover:bg-gray-700 font-medium px-3 w-full mb-4 sm:w-auto sm:mb-0"
+                                   href="https://avalon-v1.gitbook.io/" target="_blank"
+                                                  rel="noreferrer">Explore Docs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section>
+            <div class="flex flex-col pt-18 pb-6">
+                <div class="text-center pb-6 md:pb-8">
+                    <h1 id="roadmap" class="text-2xl md:text-3xl text-white font-extrabold leading-tighter tracking-tighter mb-4">Our
+                        Roadmap</h1>
+                </div>
+                <div class="flex justify-center">
+                    <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                        <li class="mb-10 ml-4">
+                            <div class="absolute w-3 h-3 bg-indigo-700 rounded-full -left-1.5 border border-indigo-600 dark:border-indigo-900 dark:bg-gray-700"></div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-500">Feb 2022</time>
+                            <h3 class="text-lg font-semibold text-white">Moralis Avalanche Hackathon Phase</h3>
+                            <p class="mb-1 text-base font-normal text-gray-400">Compete at the Hackathon event with own
+                                Testnet</p>
+                            <p class="mb-1 text-base font-normal text-gray-400">Audit for Smart Contracts</p>
+                            <p class="mb-4 text-base font-normal text-gray-400">Launch on Mainnet</p>
+                        </li>
+                        <li class="mb-10 ml-4">
+                            <div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March
+                                2022
+                            </time>
+                            <h3 class="text-lg font-semibold text-white">Grow Phase</h3>
+                            <p class="mb-1 text-base font-normal text-gray-400">Add more Farms and Partners</p>
+                            <p class="mb-1 text-base font-normal text-gray-400">Support for more Chains (Polygon,
+                                Fantom...)</p>
+                            <p class="mb-4 text-base font-normal text-gray-400">Start Marketing</p>
+                        </li>
+                        <li class="ml-4">
+                            <div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April
+                                2022
+                            </time>
+                            <h3 class="text-lg font-semibold text-white">Token Phase</h3>
+                            <p class="mb-1 text-base font-normal text-gray-400">Create own Token</p>
+                            <p class="mb-1 text-base font-normal text-gray-400">Add more Partners chosen by our
+                                Community</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="flex flex-col items-center pt-18 pb-6">
+                <div class="text-center">
+                    <h1 class="text-2xl md:text-3xl text-white font-extrabold leading-tighter tracking-tighter mb-4">
+                        Partners</h1>
+                </div>
+
+            <div class="flex flex-row flex-wrap items-center justify-center max-w-3xl">
+                <div class="m-2 flex-shrink-0"><a href="https://moralis.io/" target="_blank"
+                                                  rel="noreferrer"><img
+                        class="filter grayscale transition opacity-80 h-8 hover:opacity-100 hover:grayscale-0"
+                        src="/static/moralis.svg"
+                       style="min-height:10px"></a></div>
+                <div class="m-2 flex-shrink-0"><a href="https://www.avax.network/" target="_blank"
+                                                  rel="noreferrer"><img
+                        class="filter grayscale transition opacity-80 h-8 hover:opacity-100 hover:grayscale-0"
+                        src="/static/avalanche.svg"
+                        style="min-height:10px"></a></div>
+                <div class="m-2 flex-shrink-0"><a href="https://yieldyak.com/" target="_blank"
+                                                  rel="noreferrer"><img
+                        class="filter grayscale transition opacity-80 h-8 hover:opacity-100 hover:grayscale-0"
+                        src="/static/yak.svg"
+                        style="min-height:60px"></a></div>
+
+                            <div class="m-4 flex-shrink-0"><a href="https://chain.link/" target="_blank"
+                                                  rel="noreferrer"><img
+                        class="filter grayscale transition opacity-80 h-8 hover:opacity-100 hover:grayscale-0"
+                        src="/static/chainlink.svg"
+                        style="min-height:30px"></a></div>
+
+                    <div class="m-2 flex-shrink-0"><a href="https://aave.com/" target="_blank"
+                                                  rel="noreferrer"><img
+                        class="filter grayscale transition opacity-80 h-8 hover:opacity-100 hover:grayscale-0"
+                        src="/static/aave.svg"
+                        style="min-height:70px"></a></div>
+            </div>
+                </div>
+        </section>
+
+        <section>
+            <div class="flex flex-col text-center pt-18 pb-6">
+                <div class="text-center">
+                    <h1 class="text-2xl md:text-3xl text-white font-extrabold leading-tighter tracking-tighter mb-4">
+                        Join our Community!</h1>
+                    <div class="flex justify-center pt-4 md:pt-6">
+                        <div>
+                            <a class="text-center text-white bg-indigo-700 rounded-md py-3 hover:bg-indigo-600 font-medium px-3 w-full mr-4 mb-4 sm:w-auto sm:mb-0"
+                               href="#">Discord</a>
+                        </div>
+                        <div>
+                            <a class="text-center text-white bg-indigo-700 rounded-md py-3 hover:bg-indigo-600 font-medium px-3 w-full mb-4 sm:w-auto sm:mb-0"
+                               href="#">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+{% endblock content %}
+
+{% block scripts %}
+    {{ super() }}
+
+
+{% endblock scripts %}

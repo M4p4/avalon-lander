@@ -268,4 +268,3 @@ cython_debug/
 
 #other shit
 .idea/
-/app/static/style.css
